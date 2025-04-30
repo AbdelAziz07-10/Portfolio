@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  </head>
+  <body>
+    <nav class="navbar">
+            <a href="#" class="logo">Portfolio.</a>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="bars-animation">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+          </div>
+
+        <section class="home">
+            <div class="home-info">
+                <h1>AbdelAziz Tantawi</h1>
+                <!-- <h1>I am a <span class="typed-text"></span></h1> -->
+                <h2>I'm a <span style="--i:4;" data-text="Data Analyst">Data Analyst</span>
+                    <span style="--i:3;" data-text="Software Engineering">Software Engineering</span>
+                    <span style="--i:2;" data-text="Data Analyst">Data Analyst</span>
+                    <span style="--i:1;" data-text="Software Engineering">Software Engineering</span>
+                </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod laborum id unde ea illo voluptates perferendis necessitatibus dicta animi nesciunt, enim, assumenda, explicabo temporibus repudiandae?</p>
+                <div class="btn-sci">
+                    <a href="#" class="btn">Download CV</a>
+                    <div class="sci">
+                        <a href="#"><i class='bx bxl-github'>
+                        </i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <!-- <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-img">
+              <div class="img-box">
+                    <div class="img-item">
+                        <img src="img/me1.png" alt="photo">
+                      </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about" id="about">
+            <div class="about-content">
+              <h2>About Me</h2>
+              <p>Hello! I am a Software Engineer and Data Analyst.  
+                I build clean, efficient solutions and love turning data into stories.
+              </p>
+              <a href="#contact" class="btn" data-text="Let's Connect">Let's Connect</a>
+            </div>
+          </section>
+
+
+          <section class="portfolio" id="portfolio">
+            <div class="portfolio-content">
+              <h2>My Portfolio</h2>
+              <div class="projects">
+                <!-- <div class="project">
+                  <h3>Project One</h3>
+                  <p>Awesome website using HTML, CSS, JavaScript.</p>
+                  <a href="#" target="_blank" class="btn">View Project</a>
+                </div> -->
+                <div class="project">
+                  <h3>Project One</h3>
+                  <p>Data analysis dashboard with Python and Power BI.</p>
+                  <a href="#" target="_blank" class="btn">View Project</a>
+                </div>
+                <div class="project">
+                  <h3>Project Two</h3>
+                  <p>Machine learning model for predictions.</p>
+                  <a href="#" target="_blank" class="btn">View Project</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="services" id="services">
+            <div class="services-content">
+              <h2>My Services</h2>
+              <div class="service-cards">
+              <div class="service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Analysis</h3>
+                <p>I turn raw data into actionable insights through visualization and reporting.</p>
+              </div>
+                <!-- <div class="service-card">
+                  <i class="fas fa-code"></i>
+                  <h3>Web Development</h3>
+                  <p>I build responsive, modern, and dynamic websites using the latest technologies.</p>
+                </div> -->
+                <div class="service-card">
+                  <i class="fas fa-brain"></i>
+                  <h3>AI Solutions</h3>
+                  <p>I design smart models to automate tasks and solve real-world problems efficiently.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section class="contact" id="contact">
+            <div class="contact-content">
+              <h2>Contact Me</h2>
+              <form action="#" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+              </form>
+            </div>
+          </section>
+          <footer class="footer">
+            <div class="footer-content">
+              <h3>Thank You for Visiting!</h3>
+              <p>Connect with me on social media:</p>
+              <div class="socials">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              </div>
+              <p class="copyright">
+                © 2025 AbdelAziz Tantawi. All rights reserved.
+              </p>
+            </div>
+          </footer>
+          
+          <button id="backToTop" title="Go to top">
+            <i class="fa fa-home"></i>
+          </button>
+          <script src="JS/script.js"></script>
+        </body>
+</html>
